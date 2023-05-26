@@ -45,6 +45,9 @@ plot(blouses_ts)
 ggAcf(blouses_ts)
 ggPacf(blouses_ts)
 ```
+![Picture3](https://github.com/dingy21/salesforecasting/assets/134649288/6320ebda-848d-4d62-85b4-48394413b0e7)
+![Picture4](https://github.com/dingy21/salesforecasting/assets/134649288/d437a814-277e-432d-9f3b-4cb53dff7d8d)
+![Picture2](https://github.com/dingy21/salesforecasting/assets/134649288/9f79a5b9-5964-4ba6-bd32-46ebf0a27d8a)
 ## Forecasting Demand for Laces
 ### Fit SES Model
 ```
