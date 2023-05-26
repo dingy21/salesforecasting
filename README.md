@@ -45,9 +45,8 @@ plot(blouses_ts)
 ggAcf(blouses_ts)
 ggPacf(blouses_ts)
 ```
-![Picture3](https://github.com/dingy21/salesforecasting/assets/134649288/6320ebda-848d-4d62-85b4-48394413b0e7)
-![Picture4](https://github.com/dingy21/salesforecasting/assets/134649288/cd12bdd8-e60e-4ead-a339-36c8f6239962)
-![Picture2](https://github.com/dingy21/salesforecasting/assets/134649288/9f79a5b9-5964-4ba6-bd32-46ebf0a27d8a)
+![Picture2](https://github.com/dingy21/salesforecasting/assets/134649288/176a7a06-b35d-4685-b951-5a1257cb761d)
+![Picture7](https://github.com/dingy21/salesforecasting/assets/134649288/c6268320-7f9c-4bc2-a826-42932b632a77)
 ## Forecasting Demand for Laces
 ### Fit SES Model
 ```
@@ -76,6 +75,8 @@ forecast(laces_ets, h=3)
 
 laces_ets %>% forecast() %>% autoplot()
 ```
+![Picture5](https://github.com/dingy21/salesforecasting/assets/134649288/b128f025-2c10-4113-8524-8dfb1cd8f91f)
+![Picture6](https://github.com/dingy21/salesforecasting/assets/134649288/c325d1ed-9746-4ca5-9e0a-426eb22c871a)
 ### Compare to auto.arima
 ```
 fit_laces_auto <- auto.arima(laces_ts)
@@ -122,6 +123,8 @@ forecast(blouses_ets, h=3)
 
 blouses_ets %>% forecast() %>% autoplot()
 ```
+![Picture8](https://github.com/dingy21/salesforecasting/assets/134649288/d5829af1-1886-403f-b3d4-52e6e309fbde)
+![Picture9](https://github.com/dingy21/salesforecasting/assets/134649288/b6319a05-df40-4bbc-b7cc-4cf53c263bdf)
 ### Compare to auto.arima
 ```
 fit_blouses_auto <- auto.arima(blouses_ts)
